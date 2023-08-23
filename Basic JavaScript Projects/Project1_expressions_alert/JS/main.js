@@ -19,4 +19,9 @@ document.write(B);
 var Family = "Guzi-Dow's", Me = "Nick", Gf = "Sam", Brother = "Zach";
 document.write(Brother); //Multiple variable practice
 
-document.write(3 + 3);//Expression practice 
+document.write(3 + 3);//Expression practice
+
+//JavaScript HTML Event Practice
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
