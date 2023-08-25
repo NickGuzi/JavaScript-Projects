@@ -16,6 +16,8 @@ document.write("\"If you know the way the wind blows,"
 var B = "Concatenated" + "string";
 document.write(B);
 
+document.write(B + Y);
+
 var Family = "Guzi-Dow's", Me = "Nick", Gf = "Sam", Brother = "Zach";
 document.write(Brother); //Multiple variable practice
 
