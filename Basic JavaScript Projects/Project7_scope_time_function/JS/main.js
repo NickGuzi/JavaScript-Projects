@@ -10,6 +10,7 @@ add();
 
 function subtract() {
     document.write(X - 4 + "<br>");
+    console.log(Y - 9);
 }
 subtract();
 
