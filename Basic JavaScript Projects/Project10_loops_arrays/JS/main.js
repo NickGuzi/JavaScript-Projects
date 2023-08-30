@@ -82,3 +82,30 @@ function cont() {
     }
     document.getElementById("continue").innerHTML = out;
 }
+
+//Practice with switch statements 
+function bandFunc() {
+    var band_output;
+    var band = document.getElementById("bandInpt").value;
+    var band_string = " is an awesome band!";
+    switch (band) {
+        case "Led Zeppelin":
+            band_output = "Led Zeppelin" + band_string;
+        break;
+        case "Black Sabbath":
+            band_output = "Black Sabbath" + band_string;
+        break;
+        case "Motley Crue":
+            band_output = "Motley Crue" + band_string;
+        break;
+        case "Guns&Roses":
+            band_output = "Guns&Roses" + band_string;
+        break;
+        case "Jimi Hendrix Experience":
+            band_output = "Jimi Hendrix Experience" + band_string;
+        break;
+        default:
+            band_output = "Please enter a band name exactly as written on the list.";
+    }
+    document.getElementById("band").innerHTML = band_output;
+}
