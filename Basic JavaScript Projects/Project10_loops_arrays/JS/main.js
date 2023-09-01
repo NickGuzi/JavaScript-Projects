@@ -109,3 +109,15 @@ function bandFunc() {
     }
     document.getElementById("band").innerHTML = band_output;
 }
+
+//Practice with getElementsByClassName
+function Hello_World() {
+    var X = document.getElementsByClassName("Click");
+    X[0].innerHTML = "The text has changed!";
+}
+
+//Practice with data attributes 
+function displayType(character) {
+    var characterType = character.getAttribute("data-character-type");
+    alert(characterType + " is in the " + character.innerHTML + " universe!");
+}
