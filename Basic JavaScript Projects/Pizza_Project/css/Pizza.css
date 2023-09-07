@@ -5,8 +5,10 @@
 }
 
 #frmMenu {
-    width: 400px;
-    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center space-around;
+    align-items: center;
 }
 
 #totalPrice {
@@ -19,13 +21,25 @@
 .left {
     width: 200px;
     height: 200px;
-    float: left;
+    border: double black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .right {
     width: 200px;
     height: 200px;
-    float: right;
+    border: double black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    border: double black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #showText {
@@ -45,6 +59,8 @@
     margin: 10px 0px 0px 100px;
     width: 100px;
     height: 40px;
+    background-color: black;
+    color: #ffdf00;
 }
 
 body {
@@ -54,6 +70,8 @@ body {
 h1 {
     font-family: Luminari, fantasy;
     color: black;
+    border: double black;
+    text-align: center;
 }
 
 h3 {
