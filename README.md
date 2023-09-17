@@ -3,7 +3,7 @@ This repository contains various projects I made using JavaScript while attendin
 
 ## Projects
 - [Tic Tac Toe Game](#tic-tac-toe-game)
-- [Browswer Calculator](#browser-calculator)
+- [Browser Calculator](#browser-calculator)
 - [To Do App](#to-do-app)
 - [Pizza Menu Project](#pizza-menu-project)
 - [Basic JavaScript Practice](#basic-javascript-practice)
@@ -13,12 +13,13 @@ This program allows a user to play tic tac toe against their computer. It utiliz
 game once the winner is chosen. 
 
 ### Browser Calculator 
-This program uses HTML, JavaScript, and CSS to create a functional in browser calculator.  
+This program uses HTML, JavaScript, and CSS to create a functional in browser calculator.   
 
 ### To Do App
-This folder contains basic practice files utilizing JavaScript in conjunction with HTML. 
+This program uses HTML, Javascript, and CSS to create a basic to do application. The main purpose of creating this application was to practice using JSON and storing data in browser. 
 
 ### Pizza Menu Project 
-This folder contains basic practice files utilizing CSSin conjunction with CSS. 
+This program uses HTML, JavaScript, and CSS to create a basic functional menu. The main purpose of creating this program was to showcase the functionality JavaScript adds to web pages.  
 
 ### Basic JavaScript Practice
+This folder contains basic practice files utilizing different JavaScript expressions, functions, math operators, dictionaries, and more. 
