@@ -13,7 +13,7 @@ This program allows a user to play tic tac toe against their computer. It utiliz
 game once the winner is chosen. 
 
 ### Browser Calculator 
-This program uses HTML, JavaScript, and CSS to create a functional in browser calculator.   
+This program uses HTML, JavaScript, and CSS to create a functional in browser calculator. Users can add, subtract, multiply, and divide on a sleek web version of a calculator.    
 
 ### To Do App
 This program uses HTML, Javascript, and CSS to create a basic to do application. The main purpose of creating this application was to practice using JSON and storing data in browser. 
